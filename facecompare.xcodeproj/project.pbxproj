@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD120F25032AA2F2F61553D /* libPods-facecompare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2A9AA6CB5171E10CB385E /* libPods-facecompare.a */; };
+		865DC285210CB9F7000A37CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DC284210CB9F7000A37CA /* AppDelegate.m */; };
+		865DC288210CB9F7000A37CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DC287210CB9F7000A37CA /* ViewController.m */; };
+		865DC28A210CB9F9000A37CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865DC289210CB9F9000A37CA /* Assets.xcassets */; };
+		865DC28D210CB9F9000A37CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865DC28B210CB9F9000A37CA /* Main.storyboard */; };
+		865DC290210CB9F9000A37CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DC28F210CB9F9000A37CA /* main.m */; };
+		865DC29B210CB9F9000A37CA /* facecompareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DC29A210CB9F9000A37CA /* facecompareTests.m */; };
+		865DC2A6210CB9F9000A37CA /* facecompareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DC2A5210CB9F9000A37CA /* facecompareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		865DC297210CB9F9000A37CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865DC278210CB9F7000A37CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865DC27F210CB9F7000A37CA;
+			remoteInfo = facecompare;
+		};
+		865DC2A2210CB9F9000A37CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865DC278210CB9F7000A37CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865DC27F210CB9F7000A37CA;
+			remoteInfo = facecompare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1671E2EF87A45290E04809B1 /* Pods-facecompare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facecompare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facecompare/Pods-facecompare.debug.xcconfig"; sourceTree = "<group>"; };
+		865DC280210CB9F7000A37CA /* facecompare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facecompare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		865DC283210CB9F7000A37CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		865DC284210CB9F7000A37CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		865DC286210CB9F7000A37CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		865DC287210CB9F7000A37CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		865DC289210CB9F9000A37CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		865DC28C210CB9F9000A37CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		865DC28E210CB9F9000A37CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865DC28F210CB9F9000A37CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		865DC291210CB9F9000A37CA /* facecompare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = facecompare.entitlements; sourceTree = "<group>"; };
+		865DC296210CB9F9000A37CA /* facecompareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facecompareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		865DC29A210CB9F9000A37CA /* facecompareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facecompareTests.m; sourceTree = "<group>"; };
+		865DC29C210CB9F9000A37CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865DC2A1210CB9F9000A37CA /* facecompareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facecompareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		865DC2A5210CB9F9000A37CA /* facecompareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facecompareUITests.m; sourceTree = "<group>"; };
+		865DC2A7210CB9F9000A37CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA2A9AA6CB5171E10CB385E /* libPods-facecompare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-facecompare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4905A098C68EB778166B844 /* Pods-facecompare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facecompare.release.xcconfig"; path = "Pods/Target Support Files/Pods-facecompare/Pods-facecompare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		865DC27D210CB9F7000A37CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD120F25032AA2F2F61553D /* libPods-facecompare.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DC293210CB9F9000A37CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DC29E210CB9F9000A37CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ECD49FB33FA860679E26617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1671E2EF87A45290E04809B1 /* Pods-facecompare.debug.xcconfig */,
+				E4905A098C68EB778166B844 /* Pods-facecompare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CCBDD1D9341287215316C99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAA2A9AA6CB5171E10CB385E /* libPods-facecompare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		865DC277210CB9F7000A37CA = {
+			isa = PBXGroup;
+			children = (
+				865DC282210CB9F7000A37CA /* facecompare */,
+				865DC299210CB9F9000A37CA /* facecompareTests */,
+				865DC2A4210CB9F9000A37CA /* facecompareUITests */,
+				865DC281210CB9F7000A37CA /* Products */,
+				1ECD49FB33FA860679E26617 /* Pods */,
+				2CCBDD1D9341287215316C99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		865DC281210CB9F7000A37CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865DC280210CB9F7000A37CA /* facecompare.app */,
+				865DC296210CB9F9000A37CA /* facecompareTests.xctest */,
+				865DC2A1210CB9F9000A37CA /* facecompareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		865DC282210CB9F7000A37CA /* facecompare */ = {
+			isa = PBXGroup;
+			children = (
+				865DC283210CB9F7000A37CA /* AppDelegate.h */,
+				865DC284210CB9F7000A37CA /* AppDelegate.m */,
+				865DC286210CB9F7000A37CA /* ViewController.h */,
+				865DC287210CB9F7000A37CA /* ViewController.m */,
+				865DC289210CB9F9000A37CA /* Assets.xcassets */,
+				865DC28B210CB9F9000A37CA /* Main.storyboard */,
+				865DC28E210CB9F9000A37CA /* Info.plist */,
+				865DC28F210CB9F9000A37CA /* main.m */,
+				865DC291210CB9F9000A37CA /* facecompare.entitlements */,
+			);
+			path = facecompare;
+			sourceTree = "<group>";
+		};
+		865DC299210CB9F9000A37CA /* facecompareTests */ = {
+			isa = PBXGroup;
+			children = (
+				865DC29A210CB9F9000A37CA /* facecompareTests.m */,
+				865DC29C210CB9F9000A37CA /* Info.plist */,
+			);
+			path = facecompareTests;
+			sourceTree = "<group>";
+		};
+		865DC2A4210CB9F9000A37CA /* facecompareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				865DC2A5210CB9F9000A37CA /* facecompareUITests.m */,
+				865DC2A7210CB9F9000A37CA /* Info.plist */,
+			);
+			path = facecompareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		865DC27F210CB9F7000A37CA /* facecompare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865DC2AA210CB9F9000A37CA /* Build configuration list for PBXNativeTarget "facecompare" */;
+			buildPhases = (
+				B81DA911753241463D091912 /* [CP] Check Pods Manifest.lock */,
+				865DC27C210CB9F7000A37CA /* Sources */,
+				865DC27D210CB9F7000A37CA /* Frameworks */,
+				865DC27E210CB9F7000A37CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = facecompare;
+			productName = facecompare;
+			productReference = 865DC280210CB9F7000A37CA /* facecompare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		865DC295210CB9F9000A37CA /* facecompareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865DC2AD210CB9F9000A37CA /* Build configuration list for PBXNativeTarget "facecompareTests" */;
+			buildPhases = (
+				865DC292210CB9F9000A37CA /* Sources */,
+				865DC293210CB9F9000A37CA /* Frameworks */,
+				865DC294210CB9F9000A37CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865DC298210CB9F9000A37CA /* PBXTargetDependency */,
+			);
+			name = facecompareTests;
+			productName = facecompareTests;
+			productReference = 865DC296210CB9F9000A37CA /* facecompareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		865DC2A0210CB9F9000A37CA /* facecompareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865DC2B0210CB9F9000A37CA /* Build configuration list for PBXNativeTarget "facecompareUITests" */;
+			buildPhases = (
+				865DC29D210CB9F9000A37CA /* Sources */,
+				865DC29E210CB9F9000A37CA /* Frameworks */,
+				865DC29F210CB9F9000A37CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865DC2A3210CB9F9000A37CA /* PBXTargetDependency */,
+			);
+			name = facecompareUITests;
+			productName = facecompareUITests;
+			productReference = 865DC2A1210CB9F9000A37CA /* facecompareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865DC278210CB9F7000A37CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = aadebuger;
+				TargetAttributes = {
+					865DC27F210CB9F7000A37CA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					865DC295210CB9F9000A37CA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 865DC27F210CB9F7000A37CA;
+					};
+					865DC2A0210CB9F9000A37CA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 865DC27F210CB9F7000A37CA;
+					};
+				};
+			};
+			buildConfigurationList = 865DC27B210CB9F7000A37CA /* Build configuration list for PBXProject "facecompare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 865DC277210CB9F7000A37CA;
+			productRefGroup = 865DC281210CB9F7000A37CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				865DC27F210CB9F7000A37CA /* facecompare */,
+				865DC295210CB9F9000A37CA /* facecompareTests */,
+				865DC2A0210CB9F9000A37CA /* facecompareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		865DC27E210CB9F7000A37CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DC28A210CB9F9000A37CA /* Assets.xcassets in Resources */,
+				865DC28D210CB9F9000A37CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DC294210CB9F9000A37CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DC29F210CB9F9000A37CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B81DA911753241463D091912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-facecompare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		865DC27C210CB9F7000A37CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DC288210CB9F7000A37CA /* ViewController.m in Sources */,
+				865DC290210CB9F9000A37CA /* main.m in Sources */,
+				865DC285210CB9F7000A37CA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DC292210CB9F9000A37CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DC29B210CB9F9000A37CA /* facecompareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DC29D210CB9F9000A37CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865DC2A6210CB9F9000A37CA /* facecompareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		865DC298210CB9F9000A37CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865DC27F210CB9F7000A37CA /* facecompare */;
+			targetProxy = 865DC297210CB9F9000A37CA /* PBXContainerItemProxy */;
+		};
+		865DC2A3210CB9F9000A37CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865DC27F210CB9F7000A37CA /* facecompare */;
+			targetProxy = 865DC2A2210CB9F9000A37CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		865DC28B210CB9F9000A37CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865DC28C210CB9F9000A37CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		865DC2A8210CB9F9000A37CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		865DC2A9210CB9F9000A37CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		865DC2AB210CB9F9000A37CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1671E2EF87A45290E04809B1 /* Pods-facecompare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = facecompare/facecompare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XQLN27G8V;
+				INFOPLIST_FILE = facecompare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.1257.net.facecompare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		865DC2AC210CB9F9000A37CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4905A098C68EB778166B844 /* Pods-facecompare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = facecompare/facecompare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XQLN27G8V;
+				INFOPLIST_FILE = facecompare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.1257.net.facecompare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		865DC2AE210CB9F9000A37CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XQLN27G8V;
+				INFOPLIST_FILE = facecompareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.1257.net.facecompareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/facecompare.app/Contents/MacOS/facecompare";
+			};
+			name = Debug;
+		};
+		865DC2AF210CB9F9000A37CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XQLN27G8V;
+				INFOPLIST_FILE = facecompareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.1257.net.facecompareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/facecompare.app/Contents/MacOS/facecompare";
+			};
+			name = Release;
+		};
+		865DC2B1210CB9F9000A37CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XQLN27G8V;
+				INFOPLIST_FILE = facecompareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.1257.net.facecompareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = facecompare;
+			};
+			name = Debug;
+		};
+		865DC2B2210CB9F9000A37CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XQLN27G8V;
+				INFOPLIST_FILE = facecompareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.1257.net.facecompareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = facecompare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		865DC27B210CB9F7000A37CA /* Build configuration list for PBXProject "facecompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DC2A8210CB9F9000A37CA /* Debug */,
+				865DC2A9210CB9F9000A37CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865DC2AA210CB9F9000A37CA /* Build configuration list for PBXNativeTarget "facecompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DC2AB210CB9F9000A37CA /* Debug */,
+				865DC2AC210CB9F9000A37CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865DC2AD210CB9F9000A37CA /* Build configuration list for PBXNativeTarget "facecompareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DC2AE210CB9F9000A37CA /* Debug */,
+				865DC2AF210CB9F9000A37CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865DC2B0210CB9F9000A37CA /* Build configuration list for PBXNativeTarget "facecompareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865DC2B1210CB9F9000A37CA /* Debug */,
+				865DC2B2210CB9F9000A37CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 865DC278210CB9F7000A37CA /* Project object */;
+}
